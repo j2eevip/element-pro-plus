@@ -1,6 +1,6 @@
 {
   "name": "element-pro-plus",
-  "version": "0.10.0",
+  "version": "0.0.1",
   "description": "a component library for Vue 3 base on element-plus",
   "main": "lib/element-pro-plus.umd.js",
   "module": "lib/element-pro-plus.es.js",
@@ -19,7 +19,7 @@
     "build:types": "rimraf types && tsc -d",
     "build:helper": "node .helperrc.js",
     "build:styles": "postcss src/styles/*.css -c .postcssrc.json -d lib/styles",
-    "build:docs": "vite build docs --ssrManifest --outDir dist/static && vite build docs --ssr src/entry-server.ts --outDir dist/server && node docs/prerender.js",
+    "build:docs": "vite build docs --ssrManifest --outDir dist/static && vite build docs --ssr src/entry-server.ts --outDir dist/server",
     "test": "jest",
     "lint": "eslint . --fix --ext .ts,.vue,.js --ignore-pattern \"/lib/\" --ignore-pattern \"/types/\"",
     "prettier": "prettier --check --write --ignore-unknown \"{example,src,docs,test}/**\""

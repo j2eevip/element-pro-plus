@@ -1,26 +1,26 @@
-# element-pro-components (Beta)
+# element-pro-plus (Beta)
 
 > a component library for Vue 3 base on element-plus
 
-[Documentation](https://tolking.github.io/element-pro-components) | [Changelog](./CHANGELOG.md)
+[Documentation](https://j2eevip.github.io/element-pro-plus)
 
 ## Installation
 
 ```sh
-yarn add element-pro-components
+yarn add element-pro-plus
 # or
-npm i element-pro-components
+npm i element-pro-plus
 ```
 
 ## Usage
 
 ```js
-import { createApp } from 'vue'
-import App from './App.vue'
-import ElementPro from 'element-pro-components'
-import 'element-pro-components/lib/styles/index.css'
+import { createApp } from 'vue';
+import App from './App.vue';
+import ElementPro from 'element-pro-plus';
+import 'element-pro-plus/lib/styles/index.css';
 
-createApp(App).use(ElementPro).mount('#app')
+createApp(App).use(ElementPro).mount('#app');
 ```
 
 ```vue
